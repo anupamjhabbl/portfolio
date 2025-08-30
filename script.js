@@ -57,9 +57,9 @@ const observer = new IntersectionObserver((entries) => {
                 animateSkillBars();
             }
             
-            // Animate timeline items
+            // Animate experience cards
             if (entry.target.classList.contains('experience')) {
-                animateTimeline();
+                animateExperienceCards();
             }
             
             // Animate project cards
@@ -86,13 +86,13 @@ function animateSkillBars() {
     });
 }
 
-// Timeline animation
-function animateTimeline() {
-    const timelineItems = document.querySelectorAll('.timeline-item');
-    timelineItems.forEach((item, index) => {
+// Experience cards animation
+function animateExperienceCards() {
+    const experienceCards = document.querySelectorAll('.experience-card');
+    experienceCards.forEach((card, index) => {
         setTimeout(() => {
-            item.style.opacity = '1';
-            item.style.transform = 'translateY(0)';
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
         }, index * 200);
     });
 }
@@ -226,11 +226,11 @@ window.addEventListener('load', () => {
 
 // Add CSS classes for animations
 document.addEventListener('DOMContentLoaded', () => {
-    // Add initial animation classes
-    document.querySelectorAll('.timeline-item').forEach(item => {
-        item.style.opacity = '0';
-        item.style.transform = 'translateY(30px)';
-        item.style.transition = 'all 0.6s ease';
+    // Add initial animation classes for experience cards
+    document.querySelectorAll('.experience-card').forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'all 0.6s ease';
     });
     
     document.querySelectorAll('.project-card').forEach(card => {
