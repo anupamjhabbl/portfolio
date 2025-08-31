@@ -239,7 +239,7 @@ body {
 
 .scroll-indicator {
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -1013,7 +1013,7 @@ section {
 }
 
 @media (max-width: 768px) {
-    .hero-visual {
-      display: none; /* completely hides the phone section */
-    }
+  .hero-visual {
+    display: none; /* completely hides the phone section */
   }
+}
