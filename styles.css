@@ -386,14 +386,22 @@ section {
 }
 
 .image-container {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+}
+
+.profile-image {
+    width: 350px;        /* adjust size */
+    height: 350px;
+    border-radius: 50%;  /* makes it circular */
+    object-fit: cover;   /* crop properly */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .image-placeholder {
@@ -403,9 +411,30 @@ section {
 
 /* Skills Section */
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 3rem;
+    display: flex;
+    flex-direction: column; /* categories stack vertically */
+    gap: 3rem; /* spacing between categories */
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap; /* allow wrapping to next line if too many */
+    gap: 1.5rem;
+    justify-content: center; /* center the skills row */
+}
+
+.skill-item {
+    flex: 0 1 200px; /* each skill takes ~200px but shrinks if needed */
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    text-align: center; 
 }
 
 .skill-category h3 {
@@ -415,19 +444,6 @@ section {
     text-align: center;
 }
 
-.skill-items {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.skill-item {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-}
 
 .skill-item:hover {
     transform: translateY(-5px);
@@ -455,6 +471,7 @@ section {
     width: 0;
     transition: width 1.5s ease;
 }
+
 
 /* Projects Section */
 .projects {
@@ -717,7 +734,7 @@ section {
 
 .image-stack {
     position: relative;
-    width: 220px;
+    width: 320px;
     height: 320px;
 }
 

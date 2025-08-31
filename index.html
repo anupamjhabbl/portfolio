@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Anupam Kumar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -15,27 +15,16 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <span class="logo-text">Portfolio</span>
+                <span class="logo-text">Anupam Kumar</span>
             </div>
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
@@ -49,16 +38,17 @@
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <!-- Left Side (Text) -->
                 <div class="hero-text">
                     <h1 class="hero-title">
                         <span class="title-line">Hello, I'm</span>
-                        <span class="title-name">Your Name</span>
-                        <span class="title-role">Full Stack Developer</span>
+                        <span class="title-name">Anupam Kumar</span>
+                        <span class="title-role">Android Developer</span>
                     </h1>
                     <p class="hero-description">
-                        I create beautiful, functional, and user-centered digital experiences.
-                        Passionate about clean code and innovative solutions.
+                        Android Developer with strong expertise in Kotlin, Jetpack Compose, and modern Android
+                        frameworks.
+                        Proficient in building reliable, scalable mobile applications optimized for performance and
+                        smooth user experience.
                     </p>
                     <div class="hero-buttons">
                         <a href="#projects" class="btn btn-primary">View My Work</a>
@@ -66,24 +56,19 @@
                     </div>
                 </div>
 
-                <!-- Right Side (Video Demo instead of floating shapes) -->
                 <div class="hero-visual">
                     <div class="video-mockup">
                         <video autoplay muted loop playsinline>
                             <source src="https://cdn.pixabay.com/video/2025/08/20/298643_large.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
                         </video>
                     </div>
                 </div>
             </div>
-
-            <!-- Scroll Down Indicator -->
             <div class="scroll-indicator">
                 <div class="scroll-arrow"></div>
             </div>
         </div>
     </section>
-
 
     <!-- About Section -->
     <section id="about" class="about">
@@ -96,33 +81,24 @@
                 <div class="about-text">
                     <h3>Who I Am</h3>
                     <p>
-                        I'm a passionate developer with a love for creating digital experiences that matter.
-                        With expertise in modern web technologies, I focus on building scalable, maintainable,
-                        and user-friendly applications.
+                        Passionate Android Developer skilled in solving complex UI and
+                        performance challenges, delivering high-quality mobile applications.
+                        A strong believer in clean, maintainable code and scalable design.
                     </p>
                     <p>
-                        When I'm not coding, you can find me exploring new technologies, contributing to open-source
-                        projects, or sharing knowledge with the developer community.
+                        Currently expanding my skills in Compose Multiplatform and
+                        exploring AI driven solutions to stay ahead in mobile development.
                     </p>
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <span class="stat-number">3+</span>
-                            <span class="stat-label">Years Experience</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">50+</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-number">20+</span>
-                            <span class="stat-label">Happy Clients</span>
-                        </div>
-                    </div>
+                    <p>
+                        When I'm not coding, I enjoy contributing to open-source projects,
+                        staying curious about world affairs, and experimenting with
+                        innovative ideas outside tech.
+                    </p>
                 </div>
                 <div class="about-image">
                     <div class="image-container">
-                        <div class="image-placeholder">
-                            <i class="fas fa-user"></i>
+                        <div class="image-container">
+                            <img src="image_3.jpeg" alt="My Photo" class="profile-image">
                         </div>
                     </div>
                 </div>
@@ -139,77 +115,79 @@
             </div>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h3>Frontend</h3>
+                    <h3>Languages & Frameworks</h3>
                     <div class="skill-items">
                         <div class="skill-item" data-skill="HTML5">
-                            <div class="skill-icon">HTML5</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="90"></div>
-                            </div>
+                            <div class="skill-icon">Kotlin</div>
                         </div>
                         <div class="skill-item" data-skill="CSS3">
-                            <div class="skill-icon">CSS3</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
-                            </div>
+                            <div class="skill-icon">Java</div>
                         </div>
                         <div class="skill-item" data-skill="JavaScript">
-                            <div class="skill-icon">JS</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="80"></div>
-                            </div>
+                            <div class="skill-icon">Jetpack Compose</div>
                         </div>
                         <div class="skill-item" data-skill="React">
-                            <div class="skill-icon">React</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="75"></div>
-                            </div>
+                            <div class="skill-icon">XML Layouts</div>
+                        </div>
+                        <div class="skill-item" data-skill="React">
+                            <div class="skill-icon">Android SDK</div>
+                        </div>
+                        <div class="skill-item" data-skill="React">
+                            <div class="skill-icon">JUnit</div>
                         </div>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Backend</h3>
+                    <h3>Libraries & Tools</h3>
                     <div class="skill-items">
                         <div class="skill-item" data-skill="Node.js">
-                            <div class="skill-icon">Node</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="70"></div>
-                            </div>
+                            <div class="skill-icon">Dagger Hilt</div>
                         </div>
                         <div class="skill-item" data-skill="Python">
-                            <div class="skill-icon">Python</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="65"></div>
-                            </div>
+                            <div class="skill-icon">Koin</div>
                         </div>
                         <div class="skill-item" data-skill="Database">
-                            <div class="skill-icon">DB</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="75"></div>
-                            </div>
+                            <div class="skill-icon">Room</div>
+                        </div>
+                        <div class="skill-item" data-skill="Database">
+                            <div class="skill-icon">SQLite</div>
+                        </div>
+                        <div class="skill-item" data-skill="Database">
+                            <div class="skill-icon">Firebase</div>
+                        </div>
+                        <div class="skill-item" data-skill="Database">
+                            <div class="skill-icon">Git</div>
                         </div>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools</h3>
+                    <h3>Architecture & Patterns</h3>
                     <div class="skill-items">
                         <div class="skill-item" data-skill="Git">
-                            <div class="skill-icon">Git</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="85"></div>
-                            </div>
+                            <div class="skill-icon">MVVM</div>
                         </div>
                         <div class="skill-item" data-skill="Docker">
-                            <div class="skill-icon">Docker</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="60"></div>
-                            </div>
+                            <div class="skill-icon">Low-Level Design</div>
+                        </div>
+                        <div class="skill-item" data-skill="Git">
+                            <div class="skill-icon">MVP</div>
+                        </div>
+                        <div class="skill-item" data-skill="Git">
+                            <div class="skill-icon">MVC</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Competencies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="Git">
+                            <div class="skill-icon">Data Structures & Algorithms</div>
+                        </div>
+                        <div class="skill-item" data-skill="Docker">
+                            <div class="skill-icon">Problem Solving</div>
                         </div>
                         <div class="skill-item" data-skill="AWS">
-                            <div class="skill-icon">AWS</div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-width="55"></div>
-                            </div>
+                            <div class="skill-icon">REST APIs</div>
                         </div>
                     </div>
                 </div>
@@ -233,16 +211,20 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-stack e-commerce solution with React frontend and Node.js backend.</p>
+                        <h3>Trip Planner</h3>
+                        <p>An Android application to enhance group travel experience with feature like collaborative
+                            planning, shared expense tracking, AI based trip recommendation and high-resolution media
+                            sharing. </p>
                         <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">MVVM</span>
+                            <span class="tech-tag">Koin</span>
+                            <span class="tech-tag">AI</span>
                         </div>
                         <div class="project-links">
                             <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://github.com/anupamjhabbl/travelPlanner" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -254,16 +236,45 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Task Management App</h3>
-                        <p>A responsive task management application with drag-and-drop functionality.</p>
+                        <h3>SecureVault</h3>
+                        <p>A complete set of advanced, user-friendly security tools including file/folder encrypter,
+                            password vault, traffic blocker and integrity checker. to Safeguards sensitive information
+                            like passwords and important files.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">Vue.js</span>
-                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">C</span>
+                            <span class="tech-tag">Data Structures</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">Cryptography</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="https://github.com/anupamjhabbl/cyberSecurity-toolkit"
+                                class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ludo Game</h3>
+                        <p>Developed a lightweight, web-based Ludo game optimized for slow internet connections,
+                            allowing players to enjoy smooth gameplay with simple UI and the ability to see the game
+                            history.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Javascript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">LLD</span>
+                            <span class="tech-tag">Problem Solving</span>
                             <span class="tech-tag">CSS3</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://anupamjhabbl.github.io/ludo_game/" class="project-link">Live Demo</a>
+                            <a href="https://github.com/anupamjhabbl/ludo_game" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -275,58 +286,21 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Data Visualization Dashboard</h3>
-                        <p>Interactive dashboard for displaying complex data with charts and graphs.</p>
+                        <h3>Todo Application</h3>
+                        <p>Built a simple and clean Todo app with reminder notifications, enabling users to organize
+                            tasks, updae them, set deadline-based reminders, and receive timely alerts for better
+                            productivity.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">D3.js</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Android SDK</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Room</span>
+                            <span class="tech-tag">MVVM</span>
+                            <span class="tech-tag">Dagger Hilt</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Data Visualization Dashboard</h3>
-                        <p>Interactive dashboard for displaying complex data with charts and graphs.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">D3.js</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Flask</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Data Visualization Dashboard</h3>
-                        <p>Interactive dashboard for displaying complex data with charts and graphs.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">D3.js</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Flask</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://drive.google.com/file/d/1UotpQabv3clNazq1WH0I9LVKs_YW8Tgy/view?usp=drive_link"
+                                class="project-link">Live Demo</a>
+                            <a href="https://github.com/anupamjhabbl/todo_app" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -348,9 +322,9 @@
                             <i class="fas fa-building"></i>
                         </div>
                         <div class="company-info">
-                            <h3>Senior Frontend Developer</h3>
-                            <span class="company-name">Tech Company Inc.</span>
-                            <span class="duration">2022 - Present</span>
+                            <h3>Android Developer</h3>
+                            <span class="company-name">Roundcircle Technologies (OLX Indonesia)</span>
+                            <span class="duration">July 2025 - Present</span>
                         </div>
                         <div class="experience-badge">Current</div>
                     </div>
@@ -363,32 +337,38 @@
                                 <div class="what-i-did">
                                     <h4>What I Did</h4>
                                     <ul>
-                                        <li>Led frontend development initiatives for enterprise web applications</li>
-                                        <li>Mentored junior developers and conducted code reviews</li>
-                                        <li>Implemented best practices for code quality and performance</li>
-                                        <li>Collaborated with UX/UI designers and product managers</li>
+                                        <li>Developed a reusable library for Video upload to AWS S3 with real-time
+                                            progress update for the Video Ads feature.</li>
+                                        <li>Redesigned homepage as modular, server driven UI using modern components and
+                                            implemented A/B experiment.</li>
+                                        <li>Implemented new end-to-end Package Buying flow, increasing ad postings with
+                                            purchased package by 13%.</li>
                                     </ul>
                                 </div>
 
                                 <div class="tech-stack">
                                     <h4>Technologies</h4>
                                     <div class="tech-tags">
-                                        <span class="tech-tag">React 18</span>
-                                        <span class="tech-tag">TypeScript</span>
-                                        <span class="tech-tag">Redux Toolkit</span>
-                                        <span class="tech-tag">Next.js</span>
+                                        <span class="tech-tag">Jetpack Compose</span>
+                                        <span class="tech-tag">XML Layout</span>
+                                        <span class="tech-tag">Kotlin</span>
+                                        <span class="tech-tag">MVVM</span>
+                                        <span class="tech-tag">RxJava</span>
+                                        <span class="tech-tag">Room</span>
+                                        <span class="tech-tag">JUnit</span>
+                                        <span class="tech-tag">Firebase</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- RIGHT SIDE -->
+                            <!-- RIGHT SIDE
                             <div class="section-right">
                                 <div class="image-stack">
                                     <img src="https://picsum.photos/id/1015/200/300" class="stack-img left" />
                                     <img src="https://picsum.photos/id/1016/200/300" class="stack-img center" />
                                     <img src="https://picsum.photos/id/1018/200/300" class="stack-img right" />
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -401,11 +381,11 @@
                             <i class="fas fa-building"></i>
                         </div>
                         <div class="company-info">
-                            <h3>Senior Frontend Developer</h3>
-                            <span class="company-name">Tech Company Inc.</span>
-                            <span class="duration">2022 - Present</span>
+                            <h3>Android Developer Intern </h3>
+                            <span class="company-name">Roundcircle Technologies (OLX Indonesia)</span>
+                            <span class="duration">Jan 2024 – Jun 2025</span>
                         </div>
-                        <div class="experience-badge">Current</div>
+                        <div class="experience-badge">1 year 5 months</div>
                     </div>
 
                     <div class="experience-content">
@@ -416,84 +396,43 @@
                                 <div class="what-i-did">
                                     <h4>What I Did</h4>
                                     <ul>
-                                        <li>Led frontend development initiatives for enterprise web applications</li>
-                                        <li>Mentored junior developers and conducted code reviews</li>
-                                        <li>Implemented best practices for code quality and performance</li>
-                                        <li>Collaborated with UX/UI designers and product managers</li>
+                                        <li>Built end-to-end dealer package flow consisting of Selection, Checkout,
+                                            Payment and Success screen.</li>
+                                        <li>Built Coupon feature enabling discounts and Share package cart feature,
+                                            boosting purchase success
+                                            rate by 16%.</li>
+                                        <li>Revamped key screens to align with modern UI/UX standards and Android
+                                            guidelines improving
+                                            overall engagement.</li>
+                                        <li>Performed code cleanup, cutting APK size by 1,228KB, and added unit tests
+                                            using JUnit and Mockito,
+                                            increasing coverage from 47% to 73% for core business logic and 17% to 28%
+                                            for UI components.</li>
                                     </ul>
                                 </div>
 
                                 <div class="tech-stack">
                                     <h4>Technologies</h4>
                                     <div class="tech-tags">
-                                        <span class="tech-tag">React 18</span>
-                                        <span class="tech-tag">TypeScript</span>
-                                        <span class="tech-tag">Redux Toolkit</span>
-                                        <span class="tech-tag">Next.js</span>
+                                        <span class="tech-tag">Jetpack Compose</span>
+                                        <span class="tech-tag">XML Layout</span>
+                                        <span class="tech-tag">Kotlin</span>
+                                        <span class="tech-tag">MVVM</span>
+                                        <span class="tech-tag">MVP</span>
+                                        <span class="tech-tag">JUnit</span>
+                                        <span class="tech-tag">Firebase</span>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- RIGHT SIDE -->
+                            <!-- RIGHT SIDE
                             <div class="section-right">
                                 <div class="image-stack">
                                     <img src="https://picsum.photos/id/1015/200/300" class="stack-img left" />
                                     <img src="https://picsum.photos/id/1016/200/300" class="stack-img center" />
                                     <img src="https://picsum.photos/id/1018/200/300" class="stack-img right" />
                                 </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <div class="company-logo">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="company-info">
-                            <h3>Senior Frontend Developer</h3>
-                            <span class="company-name">Tech Company Inc.</span>
-                            <span class="duration">2022 - Present</span>
-                        </div>
-                        <div class="experience-badge">Current</div>
-                    </div>
-
-                    <div class="experience-content">
-                        <div class="content-sections">
-
-                            <!-- LEFT SIDE -->
-                            <div class="section-left">
-                                <div class="what-i-did">
-                                    <h4>What I Did</h4>
-                                    <ul>
-                                        <li>Led frontend development initiatives for enterprise web applications</li>
-                                        <li>Mentored junior developers and conducted code reviews</li>
-                                        <li>Implemented best practices for code quality and performance</li>
-                                        <li>Collaborated with UX/UI designers and product managers</li>
-                                    </ul>
-                                </div>
-
-                                <div class="tech-stack">
-                                    <h4>Technologies</h4>
-                                    <div class="tech-tags">
-                                        <span class="tech-tag">React 18</span>
-                                        <span class="tech-tag">TypeScript</span>
-                                        <span class="tech-tag">Redux Toolkit</span>
-                                        <span class="tech-tag">Next.js</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- RIGHT SIDE -->
-                            <div class="section-right">
-                                <div class="image-stack">
-                                    <img src="https://picsum.photos/id/1015/200/300" class="stack-img left" />
-                                    <img src="https://picsum.photos/id/1016/200/300" class="stack-img center" />
-                                    <img src="https://picsum.photos/id/1018/200/300" class="stack-img right" />
-                                </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -517,22 +456,20 @@
                     <div class="contact-methods">
                         <div class="contact-method">
                             <i class="fas fa-envelope"></i>
-                            <span>your.email@example.com</span>
+                            <span>anupamimpbbl@gmail.com</span>
                         </div>
                         <div class="contact-method">
                             <i class="fas fa-phone"></i>
-                            <span>+1 (555) 123-4567</span>
+                            <span>+91-9315971389</span>
                         </div>
                         <div class="contact-method">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>Your City, Country</span>
+                            <span>New Delhi, India</span>
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/anupamjhabbl" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/anupamjhabbl/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -561,7 +498,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <p>&copy; 2024 Aupam Kumar. All rights reserved.</p>
                 <p>Built with ❤️ and lots of ☕</p>
             </div>
         </div>
